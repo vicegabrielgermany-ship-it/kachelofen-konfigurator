@@ -1,0 +1,16 @@
+# Kern (Pflicht)
+streamlit>=1.55
+pillow>=10.0
+numpy>=1.26
+pandas>=2.0
+requests>=2.31
+
+# Automatisches Freistellen (Modul 1) - optional.
+# Auf Streamlit Community Cloud bewusst abgeschaltet: rembg und onnxruntime
+# brauchen mehr Arbeitsspeicher als dort zur Verfuegung steht. Lokal oder auf
+# einem eigenen Server einfach die beiden Zeilen entkommentieren.
+# rembg>=2.0.57
+# onnxruntime>=1.17
+
+# Tests
+pytest>=8.0
